@@ -2,6 +2,8 @@
 
 A project to classify dreams using fMRI data from Horikawa Et. Al - [dream classification dataset](http://brainliner.jp/data/brainliner/Human_Dream_Decoding)
 
+> If you need to get the dataset, please read the section at the bottom of this file so that we all have the same file structure!
+
 ## TODO
 - [ ] Data Exploration
     - [x] Initial Exploration
@@ -25,3 +27,8 @@ A project to classify dreams using fMRI data from Horikawa Et. Al - [dream class
 - [visualizations](https://www.datatobiz.com/blog/brain-waves-data-using-python/)
 - [mammal sleep dataset](https://www.kaggle.com/datasets/mathurinache/sleep-dataset?resource=download)
 - [sleep state dataset](https://zenodo.org/record/2650142#.Y2bG8C2B0Ut)
+
+
+### Dataset Info
+To get the dataset, go to the [dream classification dataset](http://brainliner.jp/data/brainliner/Human_Dream_Decoding) and download the file `preproc.zip`. Unzip it into a folder called `preproc` so that we all have uniform file structures.
+
