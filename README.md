@@ -5,7 +5,7 @@ A project to classify dreams using fMRI data from Horikawa Et. Al - [dream class
 > If you need to get the dataset, please read the section at the bottom of this file so that we all have the same file structure!
 
 ## TODO
-- [ ] Data Exploration
+- [x] Data Exploration
     - [x] Initial Exploration
     - [x] Create Pandas df
 - [ ] Preprocessing
