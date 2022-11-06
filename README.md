@@ -7,8 +7,7 @@ A project to classify dreams using fMRI data from Horikawa Et. Al - [dream class
 ## TODO
 - [ ] Data Exploration
     - [x] Initial Exploration
-    - [ ] Create Pandas df
-       - [ ] ?
+    - [x] Create Pandas df
 - [ ] Preprocessing
     - [ ] train-test-val split
 - [ ] Create Model
