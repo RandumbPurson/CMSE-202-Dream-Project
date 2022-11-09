@@ -10,7 +10,8 @@ A project to classify dreams using fMRI data from Horikawa Et. Al - [dream class
     - [x] Create Pandas df
 - [ ] Preprocessing
     - [ ] train-test-val split
-    - [ ] graphs - pi charts, show different label distributions
+    - [ ] graphs 
+        - [ ] pi charts, show different label distributions
 - [ ] Extra Research on Brian areas?
 - [ ] Create Model
     - [ ] Logistic Regression - maybe switch to SVM once we learn about it?
