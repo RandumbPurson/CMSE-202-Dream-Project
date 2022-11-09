@@ -19,7 +19,8 @@ A project to classify dreams using fMRI data from Horikawa Et. Al - [dream class
 - [ ] Test Model
 - [ ] Format Results
 - [ ] Write Draft
-- [ ] Finish?
+- [ ] Make Presentation
+    - [ ] Slides
 
 
 ## Useful Links
