@@ -36,3 +36,10 @@ A project to classify dreams using fMRI data from Horikawa Et. Al - [dream class
 ### Dataset Info
 To get the dataset, go to the [dream classification dataset](http://brainliner.jp/data/brainliner/Human_Dream_Decoding) and download the file `preproc.zip`. Unzip it into a folder called `preproc` so that we all have uniform file structures.
 
+### Git Workflow
+We plan to use feature branches for development.
+When working on some new feature eg pie charts, create a new branch `pie-charts` from master and commit to that branch until whatever you are doing works as intended. Then we can create a new pull request on github and merge it into the master branch. 
+
+Merging on github instead of locally will help isolate the different parts of our project so that we can work on them in parallel even if some parts aren't fully working.
+
+Also, we should use a couple different jupyter notebooks to develop eg; one for data exploration, one for visualizations, one for the models etc. At the end we can combine these into a single final notebook.
