@@ -32,6 +32,8 @@ A project to classify dreams using fMRI data from Horikawa Et. Al - [dream class
 - [mammal sleep dataset](https://www.kaggle.com/datasets/mathurinache/sleep-dataset?resource=download)
 - [sleep state dataset](https://zenodo.org/record/2650142#.Y2bG8C2B0Ut)
 
+## Link to Presentation Google Slides
+- https://docs.google.com/presentation/d/12pSqdrO2Vww2gJfNwfyR0YUEXY6oC9be72cOLrxb6dU/edit?usp=sharing 
 
 ### Dataset Info
 To get the dataset, go to the [dream classification dataset](http://brainliner.jp/data/brainliner/Human_Dream_Decoding) and download the file `preproc.zip`. Unzip it into a folder called `preproc` so that we all have uniform file structures.
