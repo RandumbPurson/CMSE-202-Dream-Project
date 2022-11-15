@@ -68,3 +68,29 @@ def load_data(subject, root="preproc"):
     data_arr = np.array(data)
 
     return meta_df, data_arr
+
+
+def trim_front_back(instring, fstring, bstring):
+    """Helper function to format class labels"""
+    fpos = instring.find(fstring) + len(fstring)
+    bpos = instring.find(bstring)
+    return instring[fpos:bpos]
+
+
+def encode_labels(masks):
+    label_columns_mask = ["Synset" in colname for colname in masks.columns]
+    label_colnames = masks.columns[label_columns_mask]
+    label_names = [trim_front_back(name, "Synset_", "_ID") for name in label_colnames]
+    label_indices = np.stack([masks[name].to_numpy().nonzero() for name in label_colnames]).squeeze()
+    return label_names, label_indices
+
+def get_onehot_labels_df(data, label_indices, label_names):
+    label_data = data[:, label_indices]
+    label_df = pd.DataFrame(label_data, columns = label_names)
+    return label_df
+
+def get_features_arr(data, feature_df, feature):
+    feature_mask = feature_df[feature].to_numpy().astype(bool)
+    feature_data = data[:, feature_mask]
+    return feature_data
+
