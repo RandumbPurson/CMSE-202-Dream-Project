@@ -12,7 +12,7 @@ A project to classify dreams using fMRI data from Horikawa Et. Al - [dream class
         - [ ] pie charts, show different label distributions
 - [ ] Preprocessing
     - [ ] train-test-val split
-- [ ] Extra Research on Brian areas?
+- [ ] Extra Research on Brain areas?
 - [ ] Create Model
     - [ ] Logistic Regression - maybe switch to SVM once we learn about it?
 - [ ] Train Model
