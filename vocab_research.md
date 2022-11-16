@@ -1,6 +1,6 @@
-#This is where I will put some research that I do on our data set so we understand what the obreviations mean, important columns, etc.
+# This is where I will put some research that I do on our data set so we understand what the obreviations mean, important columns, etc.
 
-##Column header names: 
+## Column header names: 
 0 EEG_sleep_score (1, 4039)  --  b'0 = not voxelData, 1 = voxelData'
 - Also known as electroencephalogram which is electrical activity of the brain. EEG recordings show that the stages of sleep reverse to reach a quite different state called rapid eye movement, or REM, sleep.
 1 FFA (1, 4039)  --  b'Value = X coordinate'
