@@ -8,15 +8,22 @@ A project to classify dreams using fMRI data from Horikawa Et. Al - [dream class
 - [x] Data Exploration
     - [x] Initial Exploration
     - [x] Create Pandas df
-    - [ ] graphs 
-        - [ ] pie charts, show different label distributions
-- [ ] Preprocessing
-    - [ ] train-test-val split
-- [ ] Extra Research on Brian areas?
+    - [ ] graphs
+        - [ ] bar charts
+- [x] Preprocessing - See DataHandler class
+    - [x] train-test-val split
+- [ ] Extra Research on Brain areas?
 - [ ] Create Model
-    - [ ] Logistic Regression - maybe switch to SVM once we learn about it?
-- [ ] Train Model
+    - [x] Logistic Regression
+    - [ ] SVM
+        - [ ] RBF Kernel
+        - [ ] Multiclass Regression
 - [ ] Test Model
+    - [ ] Accuracy
+    - [ ] Precision
+    - [ ] Recall
+    - [ ] F1-score
+    - [ ] Confusion Matrix
 - [ ] Format Results
 - [ ] Write Draft
 - [ ] Make Presentation
