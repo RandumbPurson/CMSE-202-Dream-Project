@@ -19,11 +19,11 @@ A project to classify dreams using fMRI data from Horikawa Et. Al - [dream class
         - [ ] RBF Kernel
         - [ ] Multiclass Regression
 - [ ] Test Model
-    - [ ] Accuracy
-    - [ ] Precision
-    - [ ] Recall
-    - [ ] F1-score
-    - [ ] Confusion Matrix
+    - [x] Accuracy
+    - [x] Precision
+    - [x] Recall
+    - [x] F1-score
+    - [x] Confusion Matrix
 - [ ] Format Results
 - [ ] Write Draft
 - [ ] Make Presentation
