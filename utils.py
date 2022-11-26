@@ -113,6 +113,7 @@ class DataHandler:
         }
 
         self.label_names, self.label_indices = encode_labels(masks)
+        self.label_counts = data[:, self.label_indices].sum(1).astype(int)
         
         self.feature_names = ["FFA", "HVC", "LOC", "LVC", "PPA", "V1", "V2", "V3"]
         self.feature_df = masks[self.feature_names]
@@ -133,3 +134,17 @@ class DataHandler:
             self.label_names
         ).to_numpy()[:, class_idx]
         return label
+    
+    def get_multi_labels(self, split_set="train"):
+        labels = get_onehot_labels_df(
+            self.data[split_set],
+            self.label_indices,
+            self.label_names
+        ).to_numpy()
+        return labels
+    
+    def get_label_names(self, counts = False):
+        if counts:
+            return dict(zip(self.label_names, self.label_counts))
+        else:
+            return self.label_names
