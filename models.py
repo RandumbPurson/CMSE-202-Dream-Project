@@ -34,12 +34,9 @@ class DreamLR:
             solver="lbfgs", max_iter=1000, class_weight="balanced",**kwargs
         )
 
-        if class_name is not None:
-            trainy = self.data_handler.get_label(class_name)
-            testy = self.data_handler.get_label(class_name, split_set="test")
-        else:
-            trainy = self.data_handler.get_multi_labels()
-            testy = self.data_handler.get_multi_labels(split_set="test")
+        trainy = self.data_handler.get_labels(label_name = class_name)
+        testy = self.data_handler.get_labels(label_name = class_name, split_set="test")
+        if class_name is None:
             model = MultiOutputClassifier(model)
         
         fit_model = model.fit(trainx, trainy)
