@@ -186,7 +186,7 @@ class DataHandler:
             )
             features.append(feature)
         
-        return np.concatenate(features, 0)
+        return np.concatenate(features, 1)
     
     def get_labels(self, label_name = None, split_set="train"):
         """
