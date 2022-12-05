@@ -206,8 +206,8 @@ class DataHandler:
             self.label_names
         ).to_numpy()
         if label_name is not None:
-            class_idx = self.label_names.index(label_name)
-            labels = labels[:, class_idx]
+            class_idx = np.where(np.isin(self.label_names, label_name))
+            labels = (labels[:, class_idx]).squeeze()
         return labels
     
     def get_label_names(self, counts = False):
