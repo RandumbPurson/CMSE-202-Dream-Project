@@ -8,26 +8,37 @@ A project to classify dreams using fMRI data from Horikawa Et. Al - [dream class
 - [x] Data Exploration
     - [x] Initial Exploration
     - [x] Create Pandas df
-    - [ ] graphs
-        - [ ] bar charts
+    - [x] graphs
+        - [x] bar charts
 - [x] Preprocessing - See DataHandler class
     - [x] train-test-val split
-- [ ] Extra Research on Brain areas?
-- [ ] Create Model
+- [x] Extra Research on Brain areas?
+- [x] Create Model
     - [x] Logistic Regression
-    - [ ] SVM
-        - [ ] RBF Kernel
-        - [ ] Multiclass Regression
-- [ ] Test Model
+    - [x] SVM
+        - [x] RBF Kernel
+        - [x] Multiclass Regression
+- [x] Test Model
     - [x] Accuracy
     - [x] Precision
     - [x] Recall
     - [x] F1-score
     - [x] Confusion Matrix
-- [ ] Format Results
-- [ ] Write Draft
-- [ ] Make Presentation
-    - [ ] Slides
+- [x] Format Results
+- [x] Write Draft
+- [x] Make Presentation
+    - [x] Slides
+
+
+## How to run our code:
+1. Download the h5 files.
+2. Survey and analyze the functions made and imported into our notebooks in the files: utils.py, plotting.py, and models.py.
+3. Run "Data Exploration" notebook for introduction to our data and how we are thinking of completing our tasks.
+4. Run "Dream Bar Charts" for some initial visualizations on the features.
+5. Run "Logistic Regression" for results to be analyzed for why we then went to SVMs!
+6. Run "SVM_Dream_Project" notebook for results on our SMV models for this project with an accuracy score of 94%!
+7. Check our this README.md file to see our checklist of what we did, resources we used, contributions each member made, and more information.
+#### Option B for our Project Code: Run the "Final Notebook Dreams" for all of these steps included in one notebook!
 
 
 ## Useful Links
@@ -52,3 +63,9 @@ When working on some new feature eg pie charts, create a new branch `pie-charts`
 Merging on github instead of locally will help isolate the different parts of our project so that we can work on them in parallel even if some parts aren't fully working.
 
 Also, we should use a couple different jupyter notebooks to develop eg; one for data exploration, one for visualizations, one for the models etc. At the end we can combine these into a single final notebook.
+
+### Contributions:
+- Emma: Logistic Regression, helped with GitHub merging, helped with slideshow, attended meetings
+- Sam: SVM, helped with GitHub, helped with slideshow, attended meetings
+- Holly: Made slideshow, background research, helped with SVM, attended meetings
+- Myles: Initial data visualization
